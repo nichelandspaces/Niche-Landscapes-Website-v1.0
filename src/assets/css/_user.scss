@@ -1,0 +1,163 @@
+// // Place your own CSS or SCSS below this line.
+
+:root {--gray-100: #f2f1f1;
+    --bs-dark: #08403d;
+    --bs-primary-rgb: 252, 250, 249;
+    --bs-dark-rgb: 8, 64, 61;
+    --bs-body-color-rgb: 252, 249, 247;
+    --bs-body-bg-rgb: 8, 64, 61;
+    --bs-font-sans-serif: "Montserrat", sans-serif;
+    --bs-body-font-family: Montserrat, sans-serif;
+    --bs-body-color: #fcf9f7;
+    --bs-body-bg: #08403d;
+    --bs-border-color: #08403d;
+}
+h6,
+.h6,
+h5,
+.h5,
+h4,
+.h4,
+h3,
+.h3,
+h2,
+.h2,
+h1,
+.h1 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.display-1 {
+    font-size: calc(1.675rem + 4.1vw);
+    font-weight: 600;
+    line-height: 1.15;
+  }
+  .btn-primary {
+    --bs-btn-color: #fcf8f7;
+    --bs-btn-bg: #b08553;
+    --bs-btn-border-color: #b08553;
+    --bs-btn-hover-color: #fcf8f7;
+    --bs-btn-hover-bg: #cc9d67;
+    --bs-btn-hover-border-color: #cc9d67;
+    // --bs-btn-focus-shadow-rgb: 219, 126, 115;
+    --bs-btn-active-color: #fcf8f7;
+    --bs-btn-active-bg: #b08553;
+    --bs-btn-active-border-color: #b08553;
+    // --bs-btn-active-shadow: inset 0 3px 5px rgba(14, 14, 14, 0.125);
+    // --bs-btn-disabled-color: #0e0e0e;
+    --bs-btn-disabled-bg: #b08553;
+    --bs-btn-disabled-border-color: #b08553;
+  }
+  .btn-dark {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #08403d;
+    --bs-btn-border-color: ##08403d;
+    --bs-btn-disabled-bg: ##08403d;
+    --bs-btn-disabled-border-color: #08403d;
+  }
+  .btn-outline-dark {
+    --bs-btn-color: #08403d;
+    --bs-btn-border-color: #08403d;
+    --bs-btn-hover-bg: #08403d;
+    --bs-btn-hover-border-color: #08403d;
+    --bs-btn-active-bg: #08403d;
+    --bs-btn-active-border-color: #08403d;
+    --bs-btn-disabled-color: #08403d;
+    --bs-btn-disabled-border-color: #08403d;
+  }
+  .dropdown-menu {
+    --bs-dropdown-box-shadow: 0 0.5rem 1rem rgba(8, 64, 61, 0.15);
+  }
+  .feature {
+    background-color: #08403d;
+  }
+  .navbar {
+    --bs-navbar-color: #08403d;
+    --bs-navbar-hover-color: #08403d;
+    --bs-navbar-brand-padding-y: 0.6rem;
+
+  }
+
+// .navbar {
+//     --bs-navbar-padding-x: 0;
+//     --bs-navbar-padding-y: 0;
+//     --bs-navbar-color: #08403d;
+//     --bs-navbar-hover-color: #08403d;
+//     --bs-navbar-disabled-color: rgba(14, 14, 14, 0.3);
+//     --bs-navbar-active-color: rgba(14, 14, 14, 0.9);
+//     --bs-navbar-brand-margin-end: 1rem;
+//     --bs-navbar-brand-font-size: 1.25rem;
+//     --bs-navbar-brand-color: rgba(14, 14, 14, 0.9);
+//     --bs-navbar-brand-hover-color: rgba(14, 14, 14, 0.9);
+//     --bs-navbar-nav-link-padding-x: 0;
+//     --bs-navbar-toggler-padding-y: 0.5rem;
+//     --bs-navbar-toggler-padding-x: 0.75rem;
+//     --bs-navbar-toggler-font-size: 1.25rem;
+//     --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23262626' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+//     --bs-navbar-toggler-border-color: transparent;
+//     --bs-navbar-toggler-border-radius: 0.375rem;
+//     --bs-navbar-toggler-focus-width: 0;
+//     --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
+//     position: relative;
+//     display: flex;
+//     flex-wrap: wrap;
+//     align-items: center;
+//     justify-content: space-between;
+//     padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+//   }
+  .navbar-dark {
+    --bs-navbar-color: #fcf9f7;
+    --bs-navbar-hover-color: #b08553;
+    --bs-navbar-active-color: #b08553;
+    --bs-navbar-brand-color: #b08553;
+    --bs-navbar-brand-hover-color: #b08553;
+  }
+// .navbar-dark {
+//     --bs-navbar-color: #fcf9f7;
+//     --bs-navbar-hover-color: #b08553;
+//     --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);
+//     --bs-navbar-active-color: #b08553;
+//     --bs-navbar-brand-color: #b08553;
+//     --bs-navbar-brand-hover-color: #b08553;
+//     --bs-navbar-toggler-border-color: transparent;
+//     --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23fff' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+//   }
+  .accordion {
+    --bs-accordion-border-color: #08403d;
+    --bs-accordion-active-bg: #08403d;
+  }
+  .tooltip {
+    font-family: "Montserrat", sans-serif;
+  }
+  .popover {
+    font-family: "Montserrat", sans-serif;
+  }
+  .link-dark {
+    color: #08403d !important;
+  }
+  .font-serif {
+    font-family: "Montserrat", serif;
+  }
+  .font-sans {
+    font-family: "Montserrat", sans-serif;
+  }
+  [class^="display"] {
+    font-family: "Montserrat", sans-serif;
+  }
+  .navbar.navbar-dark {
+    background-color: #08403d;
+    border-bottom: 1px solid #073936;
+  }
+  .navbar.navbar-dark .nav-item + .nav-item {
+    border-color: #08403d;
+  }
+  .navbar .navbar-brand img {
+    max-height: 55px;
+  }
+  .material-icons {
+    color: #17504d;
+  }

@@ -1,0 +1,28 @@
+<header>
+  <nav class="navbar navbar-{{ navbarColor|default("dark") }} navbar-expand-lg fixed-top" aria-label="Main">
+    <div class="container">
+      <a href="{{ root }}index.html" class="navbar-brand d-inline-flex"><img src="assets/img/logo-green.png"></a>
+      <a href="{{ root }}index.html" class="navbar-brand d-inline-flex"><img src="assets/img/text-horizontal-logo-gold.png"></a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation" hidden>
+        <span
+        class="material-symbols-outlined material-icons icon-3x mb-3"
+        aria-hidden="true"
+        >menu</span>
+      </button>
+      <div class="collapse navbar-collapse text-uppercase" id="navbar">
+        <ul class="navbar-nav ms-auto" hidden>
+          <li class="nav-item">
+            <a href="{{ root }}projects.html" class="nav-link{{ ' active' if 'projects' in page.url }}">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="{{ root }}services.html" class="nav-link{{ ' active' if 'services' in page.url }}">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="{{ root }}about.html" class="nav-link{{ ' active' if 'docs' in page.url }}">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>

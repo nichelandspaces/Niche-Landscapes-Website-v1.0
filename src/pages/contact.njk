@@ -1,0 +1,55 @@
+---
+layout: base
+title: Contact
+description: Inspired by Nature
+permalink: /contact.html
+---
+  <!-- Header -->
+    <div class="bg-image" style="background-image: url(assets/img/forgetmenot-2.JPG); height: 52vh;">
+
+  <div class="container py-5 py-md-6">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <h1 class="display-4">Connect with us</h1>
+        <div class="border border-2 border-light w-15 my-4"></div>
+        <p class="lead text-light mb-4">Curious about our unique approach? Ask us anything or book your free consultation.</p>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- Form -->
+  <div class="bg-white text-black">
+    <div class="container py-3">
+      <div class="bg-white mt-n5 mt-md-n6 px-3 px-md-0">
+        <div class="row justify-content-center py-4 py-lg-5">
+          <div class="col-md-10 col-lg-8">
+            <p>Fields marked with an <span class="text-secondary">*</span> are required.</p>
+            <form class="py-3" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="50d9a02d-37af-42de-b3a4-2708bfa252d5">
+            <input type="checkbox" name="botcheck" id="" style="display: none;">
+              <div class="mb-4">
+                <label for="inputName" class="form-label">Name <span class="text-secondary">*</span></label>
+                <input type="text" class="form-control" name="name" id="inputName" placeholder="Enter your name" required>
+              </div>
+              <div class="mb-4">
+                <label for="inputEmail"  class="form-label">Email <span class="text-secondary">*</span></label>
+                <input type="email" class="form-control" name="email" id="inputEmail" placeholder="Enter your email address" required>
+              </div>
+              <div class="mb-4">
+                <label for="inputPhone" class="form-label" >Phone</label>
+                <input type="tel" class="form-control" id="phone" name="phone" placeholder="Enter your phone number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+              </div>
+              <div class="mb-4">
+                <label for="messageTetxarea" class="form-label">Message <span class="text-secondary">*</span></label>
+                <textarea class="form-control" name="message" id="messageTetxarea" rows="9" placeholder="Enter your message" required></textarea>
+              </div>
+              <input type="hidden" name="redirect" value="https://nichelandscapes/success.html">
+              <button type="submit" class="btn btn-pill btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
